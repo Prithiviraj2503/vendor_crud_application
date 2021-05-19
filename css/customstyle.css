@@ -1,0 +1,118 @@
+.dwnbtn{
+	margin-top: 1%;
+	margin-left: 1%;
+}
+.error{
+	color:red;
+}
+.errorbulk{
+	color:red;
+	background-color: white;
+	font-weight: bold;
+}
+.success{
+	background-color: white;
+	color: green;
+	font-weight: bold;
+}
+.card{
+	background-color: blue;
+	width: 100%;
+}
+.card-body{
+	background-color: white;
+	width:95%;
+	margin: auto;
+	margin-top: none;
+}
+.card-title{
+	color:white;
+	padding: 3px 0;
+	margin-left: 1%;
+	margin-top: 1%;
+	font-weight: bold;
+}
+h4{
+	color:gray;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.bluehead{
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+}
+label{
+	padding: 12px 0;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+input{
+	padding:3px;
+	width:100%;
+}
+input:hover{
+	border: 1px solid powderblue;
+	box-shadow: 2px 2px 2px 2px powderblue;
+}
+.alert{
+	color:red;
+	font-weight: bold;
+	font-size: 15px;
+}
+.stock-btn{
+	border-radius: 25%;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+table, td, th {  
+  border: 1px solid gray;
+  text-align: left;
+}
+th{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover {background-color: #ddd;}
+
+.iedit{
+color:blue;
+}
+.itrash{
+	color:red;
+}
+.filetype{
+	display: none;
+}
+.btn-warning:hover + .filetype {
+  display: block;
+  color: red;
+}
+
+.uploadbox{
+	left: 50%;
+	transform: translate(-50%, 50%);
+	position: absolute;
+	padding: 30px;
+	background-color: blue;
+	border-style: dotted;
+
+}
+.upbtn{
+	margin-top:15%;
+}
+
